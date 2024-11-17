@@ -1,0 +1,88 @@
+/* Resetting basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading and top section */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2b2b52;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Content styling */
+p {
+    margin: 15px 0;
+    font-size: 1em;
+    line-height: 1.7;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #2b2b52;
+    margin: 20px 0 10px;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #4b4b6a;
+    margin: 15px 0;
+}
+
+/* List styling */
+p br {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+}
